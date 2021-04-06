@@ -29,7 +29,7 @@ class ViewController: UIViewController {
             {
         case 0: myLabel.text = "Index One selected on the Segmented Control"
             
-            case 1: myLabel.text = "Index Two selected. I got This!"
+            case 1: myLabel.text = "Woohoo, this makes sense now!"
                
             default:
                 break
