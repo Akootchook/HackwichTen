@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         //sets up the initial conditions for the app upon launch
+        segmentedControl.selectedSegmentIndex = -1
         
         myLabel.text = "Index One selected on the Segmented Control"
         
@@ -29,8 +30,12 @@ class ViewController: UIViewController {
             {
         case 0: myLabel.text = "Index One selected on the Segmented Control"
             
-            case 1: myLabel.text = "Woohoo, this makes sense now!"
+            case 1: myLabel.text = "Index Two. I got this!"
                
+        case 2: myLabel.text = "Woohoo, this makes sense now!"
+
+                
+                
             default:
                 break
             }
