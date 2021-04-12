@@ -25,6 +25,10 @@ class ViewController: UIViewController {
         
     }
     @IBAction func segmentedControlPressed(_ sender: Any) {
+     
+        
+        func segmentedText(_ sender: Any) {
+        }
         
         switch segmentedControl.selectedSegmentIndex
             {
