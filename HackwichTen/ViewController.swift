@@ -46,6 +46,17 @@ class ViewController: UIViewController {
         
     }
     
-
+    var firstString = "I got this"
+    
+    @IBAction func textEntry(_ sender: Any){
+        
+        if firstString == "I got this"
+        {
+            self.textEntry("Woohoo this makes sense")
+        }
+        
+        
+    }
+    
 }
 

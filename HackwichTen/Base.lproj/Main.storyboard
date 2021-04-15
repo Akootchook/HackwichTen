@@ -41,7 +41,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="segmentedControlPressed:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="uRr-7x-z6n"/>
                                     <action selector="segmentedText:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="DdG-bo-OQh"/>
+                                    <action selector="textEntry:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="IEC-T6-2Mg"/>
                                 </connections>
                             </textField>
                         </subviews>
